@@ -1,0 +1,885 @@
+html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+body{
+    background-image: url(media/fon.png);
+    background-size: cover;
+}
+#logotype {
+    width: 67px;
+} 
+header {
+    padding: 5px;
+    align-items: center;
+    background: #F2F2F2;
+    width: 100%;
+    height: 80px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ; */
+    /* display: flex;
+    justify-content: space-around; */
+    
+}
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+#buttons a{
+    background: #ffffff;
+    border: none;
+    font-size: 18px;
+    color: rgb(122, 122, 120);
+    padding: 5px;
+    border-radius: 10px;  
+    margin: 12px;
+    font-size: 20px;
+    margin-left: 100px;
+    text-decoration: none;
+    }
+#banner{
+    position: absolute;
+    width: 22%;
+    left: 4%;
+    top: 30%;
+    background: rgba(0, 0, 0, 0.8);
+    padding-left: 77px;
+}
+h1 {
+    width: 76%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 221%;
+    line-height: 156%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+#Poisk {
+    border: none;
+    width: 30%;
+    height: 50px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    
+}
+#fon-poiska {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 57px;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+#perehod {
+    width: 100%;
+    height: 6%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 125%;
+    position: absolute;
+    left: 0%;
+    color: white;
+    text-align: center;
+}
+#fon-monets {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    background: #E1E0DD;
+    top: 131%;
+    font-size: 23px;
+    left: 0%;
+}
+.text-monets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#glav {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 129%;
+}
+#opisanie {
+    display: grid;
+    grid-template-columns: 24% 17% 29%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 135%;
+}
+#f {
+    position: absolute;
+    background: #E1E0DD;
+    top: 153%;
+    right: 0%;
+    width: 70%;
+}
+#glav-1 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 156%;
+}
+#opisanie-1 {
+    display: grid;
+    grid-template-columns: 17% 14% 39%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 161%;
+}
+#f-1 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 175%;
+    right: 0%;
+    width: 70%;
+}
+#glav-2 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 178%;
+}
+#opisanie-2 {
+    display: grid;
+    grid-template-columns: 25% 15% 30%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 183%;
+}
+#f-2 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 199%;
+    right: 0%;
+    width: 70%;
+}
+#glav-3 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 202%;
+}
+#opisanie-3 {
+    display: grid;
+    grid-template-columns: 20% 15% 30%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 208%;
+}
+#f-3 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 225%;
+    right: 0%;
+    width: 70%;
+}
+#glav-4 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 228%;
+}
+#opisanie-4 {
+    display: grid;
+    grid-template-columns: 24% 17% 29%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 233%;
+}
+#f-4 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 248%;
+    right: 0%;
+    width: 70%;
+    font-size: 80%;
+}
+#glav-5 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 253%;
+}
+#opisanie-5 {
+    display: grid;
+    grid-template-columns: 43% 11% 16%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 258%;
+}
+#f-5 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 276%;
+    right: 0%;
+    width: 70%;
+}
+#glav-6 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 278%;
+}
+#opisanie-6 {
+    display: grid;
+    grid-template-columns: 27% 5% 38%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 282%;
+}
+#f-6 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 299%;
+    right: 0%;
+    width: 70%;
+}
+#glav-7 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 301%;
+}
+#opisanie-7 {
+    display: grid;
+    grid-template-columns: 21% 9% 40%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 306%;
+}
+#f-7 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 323%;
+    right: 0%;
+    width: 70%;
+}
+#glav-8 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 326%;
+}
+#opisanie-8 {
+    display: grid;
+    grid-template-columns: 38% 11% 21%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 331%;
+}
+#f-8 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 347%;
+    right: 0%;
+    width: 70%;
+}
+#glav-9 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 349%;
+}
+#opisanie-9 {
+    display: grid;
+    grid-template-columns: 25% 7% 38%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 353%;
+}
+#f-9 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 369%;
+    right: 0%;
+    width: 70%;
+}
+#glav-10 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 372%;
+}
+#opisanie-10 {
+    display: grid;
+    grid-template-columns: 27% 7% 36%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 376%;
+}
+#f-10 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 393%;
+    right: 0%;
+    width: 70%;
+}
+#glav-11 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 396%;
+}
+#opisanie-11 {
+    display: grid;
+    grid-template-columns: 38% 7% 25%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 401%;
+}
+#f-11 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 417%;
+    right: 0%;
+    width: 70%;
+}
+#glav-12 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 419%;
+}
+#opisanie-12 {
+    display: grid;
+    grid-template-columns: 19% 10% 41%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 423%;
+}
+#f-12 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 441%;
+    right: 0%;
+    width: 70%;
+}
+#glav-13 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 444%;
+}
+#opisanie-13 {
+    display: grid;
+    grid-template-columns: 25% 10% 35%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 448%;
+}
+#f-13 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 463%;
+    right: 0%;
+    width: 70%;
+}
+#glav-14 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 466%;
+}
+#opisanie-14 {
+    display: grid;
+    grid-template-columns: 28% 5% 37%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 471%;
+}
+#f-14 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 489%;
+    right: 0%;
+    width: 70%;
+}
+#glav-15 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 492%;
+}
+#opisanie-15 {
+  display: grid;
+    grid-template-columns: 33% 9% 27%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 496%;
+}
+#f-15 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 512%;
+    right: 0%;
+    width: 70%;
+}
+#glav-16 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 515%;
+}
+#opisanie-16 {
+    display: grid;
+    grid-template-columns: 29% 11% 30%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 520%;
+}
+#f-16 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 535%;
+    right: 0%;
+    width: 70%;
+}
+#glav-17 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 540%;
+}
+#opisanie-17 {
+    display: grid;
+    grid-template-columns: 31% 10% 29%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 545%;
+}
+#f-17 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 562%;
+    right: 0%;
+    width: 70%;
+}
+#glav-18 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 566%;
+}
+#opisanie-18 {
+    display: grid;
+    grid-template-columns: 31% 10% 29%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 570%;
+}
+#f-18 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 585%;
+    right: 0%;
+    width: 70%;
+}
+#glav-19 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 588%;
+}
+#opisanie-19 {
+    display: grid;
+    grid-template-columns: 33% 9% 28%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 592%;
+}
+#f-19 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 607%;
+    right: 0%;
+    width: 70%;
+}
+#glav-20 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 610%;
+}
+#opisanie-20 {
+    display: grid;
+    grid-template-columns: 34% 7% 29%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 615%;
+}
+#f-20 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 630%;
+    right: 0%;
+    width: 70%;
+}
+#glav-21 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 632%;
+}
+#opisanie-21 {
+    display: grid;
+    grid-template-columns: 40% 12% 18%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 19px;
+    position: absolute;
+    top: 635%;
+}
+#f-21 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 655%;
+    right: 0%;
+    width: 70%;
+}
+#glav-22 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 658%;
+}
+#opisanie-22 {
+    display: grid;
+    grid-template-columns: 35% 6% 29%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 19px;
+    position: absolute;
+    top: 662%;
+}
+#f-22 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 678%;
+    right: 0%;
+    width: 70%;
+}
+#glav-23 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 681%;
+}
+#opisanie-23 {
+    display: grid;
+    grid-template-columns: 26% 5% 39%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 19px;
+    position: absolute;
+    top: 685%;
+}
+#f-23 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 703%;
+    right: 0%;
+    width: 70%;
+}
+#glav-24 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 705%;
+}
+#opisanie-24 {
+    display: grid;
+    grid-template-columns: 25% 9% 36%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 709%;
+}
+#f-24 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 727%;
+    right: 0%;
+    width: 70%;
+}
+#glav-25 {
+    width: 135%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 730%;
+}
+#opisanie-25 {
+    display: grid;
+    grid-template-columns: 29% 12% 29%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 735%;
+}
+#f-25 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 751%;
+    right: 0%;
+    width: 70%;
+}
+#glav-26 {
+    width: 135%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 754%;
+}
+#opisanie-26 {
+    display: grid;
+    grid-template-columns: 27% 14% 29%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 759%;
+}
+#f-26 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 774%;
+    right: 0%;
+    width: 70%;
+}
+#glav-27 {
+    width: 136%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 778%;
+}
+#opisanie-27 {
+    display: grid;
+    grid-template-columns: 25% 15% 30%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 785%;
+}
+#f-27 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 798%;
+    right: 0%;
+    width: 70%;
+}
+#glav-28 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 800%;
+}
+#opisanie-28 {
+    display: grid;
+    grid-template-columns: 35% 7% 28%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 804%;
+}
+#f-28 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 822%;
+    right: 0%;
+    width: 70%;
+}
+#glav-29 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 825%;
+}
+#opisanie-29 {
+    display: grid;
+    grid-template-columns: 23% 7% 40%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 830%;
+}
+#f-29 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 847%;
+    right: 0%;
+    width: 70%;
+}
+#glav-30 {
+    width: 133%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 154%;
+    position: absolute;
+    top: 850%;
+}
+#opisanie-30 {
+    display: grid;
+    grid-template-columns: 36% 11% 23%;
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+    font-size: 111%;
+    position: absolute;
+    top: 855%;
+}
+#f-30 {
+    position: absolute;
+    background: #E1E0DD;
+    top: 871.6%;
+    right: 0%;
+    width: 70%;
+}
+footer { 
+    position: absolute;
+    font-size: 27px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    top: 875.7%;
+    left: 0%;
+    background: rgba(0, 0, 0, 0.548);
+}
